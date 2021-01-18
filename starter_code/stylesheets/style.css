@@ -146,14 +146,24 @@ header {
 
 .info-foot {
     display: flex;
-    width: 10%;
     flex-wrap: wrap;
+}
+
+.first-list, .second-list {
+    display: flex;
+    padding-right: 10px;
+}
+
+.first-list div:last-child {
+    padding-left: 0px;
+}
+
+.second-list div:last-child {
+    padding-left: 15px;
 }
 
 .list-foot >ul{
     list-style: none;
-    display: flex;
-    flex-direction: column;
 }
 
 
